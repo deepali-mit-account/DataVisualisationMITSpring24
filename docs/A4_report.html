@@ -4,6 +4,11 @@
 	<title>Vis & Society Assignment 3</title>
 	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
 </head>
+<style>
+  .justified-text {
+    text-align: justify;
+  }
+</style>
 <body>
 	<header>
 		<h1>
@@ -11,7 +16,7 @@
 			Persuasive or Deceptive Visualization?
 		</h1>
 
-		<p style="text-align: justify;">
+		<p class="justified-text">
 			<strong>Deepali Kishnani</strong> — <em>deepalik@mit.edu</em>
 		</p>
 	</header>
@@ -25,7 +30,7 @@
       <figure>
 				<img src="IMAGE_FILENAME" alt="" />
 				<figcaption>
-					The video shows an animated scatter plot visualising global data from 2007-2022. Each dot on the plot represents a country. The size of the dot represents the technology exports made by the country. The higher the exports, the bigger the bubble. The X-axis represents the GDP on a log scale. The Y-axis represents the unemployment rate. The colour of the bubbles represent the ease of business global. The year is displayed in grey on the chart. 
+					The video shows an animated scatter plot visualising global data from 2007-2022. Each dot on the plot represents a country. There are 166 countries on the plot. The size of the dot represents the technology exports made by the country. The higher the exports, the bigger the bubble. The X-axis represents the GDP on a log scale. The Y-axis represents the unemployment rate. The colour of the bubbles represent the ease of business globally. The year is displayed in grey in the animation.  
 					<bbr><br>
 				<br></bbr>
 					We can see that the countries with green colour and bigger size, representing higher ease of business and larger technology exports respectively, predominantly occupy the lower right of the chart, indicating lower unemployment rates and higher GDP. 
@@ -44,12 +49,11 @@
 			<ul>
 				<li><b> Animated Scatter Plot: </b> My hypothesis involved multiple variables and complex analysis. It was challenging to come up a visualisation that could use six variables (unemployment rate, GDP, ease of business index, technology exports, year, and countries) in a single visualisation. Therefore, I decided to use an animated scatter plot to fit all details coherently. Moreoever, animations would help readers see the trend across a longer time frame, persuading them that such a trend is not one off but consistent across several years.  <br> 
 				<b>Earnesty Score: 2/2</b> Animation was done as is, no deceptions added. </li></br>
-				<li><b>Colour Scheme: </b> I chose a standard RGB colour scheme to enable clear distinction of ease of business scale, but I chose green colour to bias people towards my argument that ease of business is "greener", meaning "the right or the better thing to do" so that the big green dots shine out on the plot.  </li>
+				<li><b>Colour Scheme: </b> I chose a standard RGB colour scheme to enable clear distinction of ease of business scale, but I chose green colour to bias people towards my argument that ease of business is "greener", meaning "the right or the better thing to do" so that the big green dots shine out on the plot.  </li><br>
 				<b>Earnesty Score: -1/2</b> As pointed out, colour scheme contains some bias towards ease of business use due to the use of green colour to indicate higher ease of business.  </li></br>
 				</br>
 				<li><b>Use of Log Scale:</b> My dataset comprises 164 countries! And many of them do not have GDP in a uniformly spread out range. If I didn't use the log scale, my visualisation would have all the countries with lesser or moderate ease of business pushed to the left and the countries with more ease of business spread on the graph. Now, while this would have actually made my visualisation more and not less persuasive, it would have also made my analysis too unbelievable and less readable because the all the other dots, except green would be concentrated in a small portion of the plot. I wanted to give credit to my readers that they can pick on such a nuance and hence, used a log scale. 
 				<b>Earnesty Score: 2/2</b> Log scale was used to make the plot more readable and believable. No deception was used.  </li></br>
-	</br> 
 				<li><b>Choice of Axis and Representations:</b> I have seen animated scatter plots before and choosing year to be the moving window and countries as the dots was an obvious choice. Choosing GDP on x-axis was an intuitive choice because that's the quantity that we expect to change over larger range within a year, as compared to the unemployment rate, which is much slower to move and covers a much shorter range of scale, deeming it a better fit for the y-axis in accordance to the standard "landscape" view of a scatter plot. Further, I converted the world bank ease of business rank into three categories - low, moderate, and high, wherein higher score indicated lower rank. This data was also available for only one year. In contrast, the tech export data changed annually and available for several years, making it an interesting choice for the changing dot size. All of these decisions also helped make the chart much more persuasive, especially with the green big bubbles dominating the plot overall, which is what we wanted to prove. 
 				</li> 
 				
@@ -66,22 +70,47 @@
 
     <section>
       <h3>AGAINST the Proposition</h3>
-
+ <h3>Ease of Business and Technology Exports Lead to Higher Unemployment Rates and Have No Impact on GDP</h3>
       <figure>
 				<img src="IMAGE_FILENAME" alt="" />
 				<figcaption>
-          BRIEF CAPTION HERE.
+					The video shows an animated scatter plot visualising global data from 2007-2015. Each dot on the plot represents a country. There are 87 countries on the plot. The size of the dot represents the technology exports made by the country. The higher the exports, the bigger the bubble. The X-axis represents the GDP on a log scale. The Y-axis represents the unemployment rate. The colour of the bubbles represent the ease of business globally. The year is displayed in grey in the animation. 
+					<bbr><br>
+				<br></bbr>
+					We can see that the countries with green colour and bigger size, representing higher ease of business and larger technology exports respectively, predominantly occupy the lower right of the chart, indicating lower unemployment rates and higher GDP. 
+						</br></bbr>
+							<br></bbr>
+					<i>
+					<b>Credits:</b> All data is taken from the World Bank. 
+					</i>
 				</figcaption>
 			</figure>
 
-			<p>
+		<p>
 				Design Decisions and Rationale:
 			</p>
 
 			<ul>
-				<li>RATIONALE_1</li>
-				<li>RATIONALE_2</li>
-				<li>RATIONALE_3</li>
+				<li><b> Animated Scatter Plot: </b> Again, my hypothesis involved multiple variables and complex analysis. It was challenging to come up a visualisation that could use six variables (unemployment rate, GDP, ease of business index, technology exports, year, and countries) in a single visualisation. Therefore, I decided to use an animated scatter plot to fit all details coherently. Moreoever, animations would help readers see the trend across a longer time frame, persuading them that such a trend is not one off but consistent across several years.  <br> 
+				<b>Earnesty Score: 2/2</b> Animation was done as is, no deceptions added. </li></br>
+				
+				<li><b>Colour Scheme: </b> I chose a standard RGB colour scheme to enable clear distinction of ease of business scale. I kept the colour scheme the same as before. No deception was added. For the opposing narrative, I wanted smaller and lower dots to shine out. Given the colour scheme, a darker colour such as blue would be more catchy than a lighter green tone.  </li> <br>
+				<b>Earnesty Score: 0.5/2</b> Colour scheme contains no bias, perhaps a slight preference towards a darker shade for lower ease of business and lesser tech exports so that the smaller dots are distinctly visible. </li></br>
+				</br>
+				<li><b>Use of Linear Scale:</b> My dataset comprises 87 countries so a log scale wasn't necessary to manage the complexity. A linear scale ensures that the absolute differences are clearly visible. However, a linear scale is also a zoomed in view. For GDPs changing by only 100-200 million of countries, a linear scale makes the data change less evidentl. For our narrative that "there is no impact on GDP", a linear sclae is perfect. It makes a perception that indeed no significant change in GDP is taking place. 
+				
+				<b>Earnesty Score: -2/2</b> Changing the scale from log to linear made the changes in GDP appear non-significant which isn't the case. Such a switch also presented a zoomed in view.  </li></br>
+				<li><b>Removal of Outliers:</b> I removed bottom 10% of outliers that had high ease of business and high GDP. The removal of 10% outliers isn't a significant change, but for a dataset of 87, it's perhaps significant enough to somewhat sway the narrative. I did so also to scale the data better and show bigger blue dots for smaller tech exports as against smaller in size dots, since the latter would make the GDP values of countries that are not exporting tech goods look smaller, opposite of what my narrative was. 
+				</li> 
+				
+				<b>Earnesty Score: -1.5/2</b> I have used considerable deception here to remove outliers to make the opposing view more persuasive.  </li></br>
+				
+				</br> 
+				<li><b>Range of Years:</b> Range of years is the key difference against all other design decisions that make one visualisation for and the other against. By focusing on 2007-2015, I zoomed categorically into the years of economic depression wherein unemployment rates where any way high. In fact, more so for a country exporting tech goods and the one that had ease of business than other countries that never did tech exports or had ease of business and were self sufficient. 
+				</li> 
+				
+				<b>Earnesty Score: -2/2</b> I used significant deception to only choose years of economic depression to dissuade readers from the narrative that ease of business can be conducive to the economy.   </li></br>
+
 			</ul>
     </section>
 
